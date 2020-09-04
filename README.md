@@ -9,6 +9,7 @@ Using the OpenCV OAK-D camera with ADLINK Edge AI hardware and software to build
 ### Software components
 - [ADLINK Edge SDK](https://www.adlinktech.com/en/Edge-SDK-IoT)
 - [Luxonis DepthAI Python API](https://docs.luxonis.com/api/)
+- [ADLINK Edge Utilities](https://github.com/tobymcclean/adl_edge_iot)
 
 ## The story
 
