@@ -1,0 +1,29 @@
+[
+    {
+        "name":"ObjectCount",
+        "context":"com.generic.data",
+        "qosProfile":"event",
+        "version":"v1.0",
+        "description":"An observation which is the counter of a certain type of object",
+        "tags":[
+            {
+                "name":"class_id",
+                "description":"Detected object's classification type as raw id",
+                "kind":"INT32",
+                "unit":""
+            },
+            {
+                "name":"class_label",
+                "description":"Detected object's classification as proper name",
+                "kind":"STRING",
+                "unit":""
+            },
+            {
+                "name":"count",
+                "description":"The number of objects observed at a point in time",
+                "kind":"INT32",
+                "unit":""
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "name": "LineCounter",
+    "context": "com.adlinktech.solution",
+    "version": "v1.0",
+    "description": "A thing to observe the number of people in a line",
+    "inputs": [
+        {
+            "name": "DetectionBoxData",
+            "tagGroupId": "DepthDetectionBox:com.vision.data:v1.0"
+        }
+    ],
+    "outputs": [
+        {
+            "name": "Count",
+            "tagGroupId": "ObjectCount:com.generic.data:v1.0"
+        }
+    ]
+}
